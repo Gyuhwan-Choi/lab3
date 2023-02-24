@@ -1,0 +1,111 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', 'Kanit', sans-serif;
+  padding: 0 2rem;
+  text-align: center;
+  background-color: #edeae5;
+}
+
+h1 {
+  font-size: 4.6rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+  color: #8d6d4f;
+  font-weight: bold;
+}
+
+
+label {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+input[type="email"] {
+  display: block;
+  width: 60%;
+  padding: 1.6rem;
+  margin-bottom: 3rem;
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+
+input[type="submit"] {
+  display: block;
+  margin-top: 3rem;
+  padding: 1.6rem 3rem;
+  border: none;
+  background-color: #ff800c;
+  color: white;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+}
+
+
+/* Mobile-scale form with gray shades */
+@media screen and (max-width: 768px) {
+  input[type="email"] {
+    border-bottom: 4px solid gray;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Line with Box filled with color */
+#content {
+  background-color: #daccad;
+  padding: 4rem;
+  margin-top: 4rem;
+}
+
+#input-email {
+  background-color: #ad8d6f;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+  color: #e7e2e9;
+  width: 60%;
+  margin: 0 auto 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+#input-age-verification {
+  background-color: #aa8a3d;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #f6f6f4;
+  width: 60%;
+  margin: 0 auto 2rem;
+  border-radius: 20px;
+}
+
+#input-submit {
+  margin-bottom: 2rem;
+}
